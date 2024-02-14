@@ -1,48 +1,48 @@
-Note-Taking App
+# Note-Taking App
+
 A simple CLI-based note-taking application that allows you to create, read, update, and delete notes efficiently using Node.js and Yargs.
 
-Features
-Create new notes with a title and body.
-Read existing notes by title.
-Update notes by title.
-Delete notes by title.
-Installation
-Clone the repository:
+## Features
+
+- **Create** new notes with a title and body.
+- **Read** existing notes by title.
+- **Update** notes by title.
+- **Delete** notes by title.
+
+## Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/mohammadshahabaaz/NOTES_APP_CRUD.git
+
+# Navigate into the application directory:
 bash
-Copy code
-git clone https://yourrepositorylink.git
-Navigate into the application directory:
-bash
-Copy code
 cd note-app
-Install the necessary dependencies:
+
+# Install the necessary dependencies:
 bash
-Copy code
 npm install
-Usage
-Adding a New Note
-bash
-Copy code
+
+
+Usage : 
+- **Adding a New Note**
 node app.js add --title="Note Title" --body="Note Body"
-Reading a Note
-bash
-Copy code
+
+- **Reading a Note**
 node app.js read --title="Note Title"
-Updating a Note
-bash
-Copy code
+
+- **Updating a Note**
 node app.js update --title="Note Title" --newTitle="New Title" --body="Updated Note Body"
-Deleting a Note
-bash
-Copy code
+
+- **Deleting a Note**
 node app.js remove --title="Note Title"
-Listing All Notes
-bash
-Copy code
+
+- **Listing All Notes**
 node app.js list
-Configuration
+
+# Configuration
 The application uses Yargs for parsing command-line arguments. Ensure that your Yargs configuration in app.js matches the commands and options described in the Usage section.
 
-Dependencies
+# Dependencies
 Node.js
 Yargs
